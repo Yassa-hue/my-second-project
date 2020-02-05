@@ -1,0 +1,503 @@
+/* start our framework */
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 3785px;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+button{
+    cursor: pointer;
+}
+.overlay{
+    background: rgba(49, 55, 61, .8);
+    height: 100%;
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.main-color{
+    color: #f7600e;
+}
+
+.main-background{
+    color: #f7600e;
+}
+/* end our framework */
+
+
+/*start header */
+.header{
+    background: url('download.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+
+.header .navbar{
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.header .navbar .links{
+    float: right;
+    cursor: pointer;
+    margin-top: -44px;
+}
+
+.header .navbar .links i{
+    margin-right: 5px;
+}
+
+.header i:hover{
+    color: #f7600e;
+}
+
+.header .intro h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800px;
+}
+
+.header .intro p{
+    margin: 20px 0 40px;
+    line-height: 1.8;
+    font-size: 20px;
+    color: #e2e2e2;
+}
+
+.header .buttons button{
+    background: transparent;
+    padding: 10px 0;
+    width: 180px;
+    font-size: 14px;
+    border: 1px solid #909090;
+    margin: 0 8px;
+    border-radius: 10px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.header .buttons button:hover{
+    background: #f7600e;
+}
+
+.header .intro .arrow{
+    position: absolute;
+    bottom: 20px;
+}
+
+.header .intro .arrow i{
+    cursor: pointer;
+}
+/*end header */
+
+/*start features */
+.features{
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.features .box{
+    width: 22%;
+    float: left;
+    margin-right: 4px;
+}
+
+.features .box:last-child{
+    margin-right: 0;
+}
+
+.features .box i{
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 93px;
+    transition: all .5s ease-in-out;
+}
+
+.features .box i:hover{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #fff;
+}
+
+.features .box p{
+    line-height: 24px;
+    color: #333;
+}
+/*end features */
+
+/*start subscribe */
+.subscribe{
+    background: url('imag2.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.subscribe form{
+    padding: 30px 0;
+    text-align: center;
+}
+.subscribe form input{
+    padding: 8px;
+    margin: 40px;
+    width: 400px;
+    margin-left: 0;
+    border-radius: 10px;
+}
+
+.subscribe form button{
+    width: 167px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f7600e;
+    color: #fff;
+    margin-right: 78px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.subscribe form button:hover{
+    color: #f7600e;
+    background: #fff;
+}
+/*end subscribe */
+
+/*start our-work */
+.our-work{
+    text-align: center;
+}
+
+.our-work h2{
+    font-size: 47px;
+    font-weight: 900;
+}
+
+.our-work p{
+    line-height: 25px;
+    color: #333;
+    margin-bottom: 34px;
+}
+
+.our-work .items .item{
+    width: 32.8%;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-radius: 15px;
+}
+
+.our-work .items .item .over{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    background-color: rgba(247, 93, 14, .8);
+    padding-top: 20px;
+    color: #fff;
+    display: none;
+    transition: all .5s ease-in-out;
+}
+
+.our-work .items .item .over p{
+    color: #fff;
+}
+
+.our-work .items .item .over button{
+    width: 109px;
+    padding: 5px;
+    background-color: #f7600e;
+    border: none;
+    border-radius: 5px;
+    counter-reset: #fff;
+    transition: all .5s ease-in-out;
+    color: #fff;
+}
+
+.our-work .items .item:hover .over{
+    display: block;
+}
+
+.our-work .items .item .over button:hover{
+    background-color: #fff;
+    color: #f7600e;
+}
+
+.our-work .show-more{
+    text-transform: uppercase;
+    width: 231px;
+    height: 43px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 65px;
+    color: #fff;
+    background-color: #f7600e;
+    transition: all .5s ease-in-out;
+}
+
+.our-work .show-more:hover{
+    color: #f7600e;
+    background-color: #fff;
+    border: 2px solid #f7600e;
+}
+/*end our-work */
+
+/*start testim */
+.testim{
+    background: url('imag2.jpg');
+    background-size: cover;
+    height: 344px;
+    margin: 40px 0;
+}
+
+.testim .container{
+    position: relative;
+}
+
+.testim .container span{
+    top: 144px;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.testim .container .back{
+    left: 0;
+}
+
+.testim .container .back:hover,
+.testim .container .next:hover{
+    color: #f7600e;
+}
+
+.testim .container .next{
+    width: 29px;
+    display: block;
+    float: right;
+    margin-left: 800px;
+}
+
+.testim .relative{
+    position: relative;
+}
+
+.testim .testims{
+    padding: 20px;
+    position: absolute;
+    top: 27px;
+    left: 123px;
+}
+
+.testim .testims img{
+    border-radius: 50%;
+    height: 149px;
+}
+
+.testim .hidden{
+    display: none;
+}
+/*end testim */
+
+/*start our-team */
+.our-team h2{
+    font-size: 42px;
+    font-weight: 900;
+
+}
+
+.our-team p{
+    color: #333;
+}
+
+.our-team .team .member{
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    translate: 20px;
+    color: #888;
+}
+
+.our-team .team .member:first-of-type{
+    margin-left: 0;
+}
+
+.our-team .team .member img{
+    width: 165px;
+    border-radius: 20px;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+}
+
+.our-team .team .member h3{
+    font-size: 22px;
+}
+
+.our-team .team .member p{
+    font-size: 15px;
+}
+
+.our-team .team .member:hover img{
+    filter: none;
+    -webkit-filter: none;
+    width: 190px;
+}
+
+.our-team .team .member:hover h3{
+    color: #000;
+}
+
+.our-team .team .member:hover p{
+    color: #555;
+}
+
+.our-team .team .member .icons i{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    background: #999;
+    line-height: 25px;
+    margin: 2px 4px auto;
+    border-radius: 8px;
+}
+
+.our-team .team .member:hover .icons i:first-of-type{
+    background: #3b5998;
+    color: #fff;
+}
+
+.our-team .team .member:hover .icons i:nth-of-type(2){
+    background: #00acee;
+    color: #fff;
+}
+
+.our-team .team .member:hover .icons i:last-of-type{
+    background: #db4a39;
+    color: #fff;
+}
+/*end our-team */
+
+/*start say-hello */
+.say-hello{
+    margin-top: 500px;
+    background: url('download.jpg');
+    height: 700px;
+}
+
+.say-hello .container{
+    padding: 40px;
+    color: #fff;
+}
+
+.say-hello h2{
+    font-size: 42px;
+    font-weight: 900;
+
+}
+
+.say-hello p{
+    color: #ccc;
+}
+
+.say-hello form input{
+    display: block;
+    width: 42%;
+    margin: 4% auto;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.say-hello form input:first-of-type{
+    float: left;
+    margin-left: 40px;
+}
+
+.say-hello form input:last-of-type{
+    float: right;
+    margin-right: 40px;
+}
+
+.say-hello form textarea{
+    width: 88%;
+    padding: 10px;
+    border-radius: 15px;
+    height: 250px;
+    resize: none;
+}
+
+.say-hello form button{
+    float: left;
+    margin: 50px 0 0 40px;
+    width: 159px;
+    height: 32px;
+    background: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.say-hello form button:hover{
+    background: #f7600e;
+    color: #fff;
+    border-color: #fff;
+}
+
+.say-hello form i{
+    float: right;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    line-height: 2;
+    border-radius: 9px;
+    margin-left: 3px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.say-hello form i:first-of-type{
+    margin-right: 40px;
+}
+
+.say-hello form .fa-facebook{
+    background: #3b5998;
+}
+
+.say-hello form .fa-twitter{
+    background: #00acee
+}
+
+.say-hello form .fa-google-plus{
+    background: #db4a39
+}
+
+.say-hello form .fa-behance{
+    background: #053eff
+}
+
+.say-hello form .fa-pinterest-p{
+    background: #c8232c
+}
+/*end say-hello */
+.footer {
+    height: 100px;
+}
+.footer .container{
+    padding-top: 40px;
+}
